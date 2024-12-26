@@ -1,4 +1,57 @@
 
-
+/*Default styles*/
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+    
+   
+/*Main styles*/
+
+body{
+  font-family: "Outfit";
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 99vh;
+  margin: 0;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  padding-bottom: 1rem;
+}
+
+/*Card styles styles*/
+
+h2{
+  text-align: center;
+  color: hsl(218, 44%, 22%);
+}
+p{
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  color: hsl(216, 15%, 48%);
+}
+
+.card-container{
+  background-color: hsl(0, 0%, 100%);
+  width: auto;
+  max-width: 330px;
+  padding: 1rem;  
+}
+
+.img-container{
+  width: auto;
+  height: auto;
+}
+
+.rounded{
+  border-radius: 9px;
+}
+
+.bold{
+  font-weight: 700;
+}
