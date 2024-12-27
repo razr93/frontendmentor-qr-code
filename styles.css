@@ -37,22 +37,18 @@ p{
 }
 
 .card-container{  
-  width: auto;
-  max-width: 280px;
-  padding: 1rem;  
+  width: 288px;
+  max-width: 288px;
+  padding: 16px;
   border-radius: 20px;
   background-color: hsl(0, 0%, 100%);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.img-container{
-  width: auto;
-  height: auto;
-  
-}
+
 
 .text-container{
-  padding: 8px;
+  padding: 0 16px 0 16px;
 }
 
 .rounded{
